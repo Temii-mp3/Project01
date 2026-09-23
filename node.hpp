@@ -1,5 +1,4 @@
-#ifndef NODEINFO_HPP
-#define NODEINFO_HPP
+#pragma once
 
 #include <vector>
 #include <string>
@@ -17,7 +16,7 @@ class Node{
 
 
     public:
-        Node(int id, const NodeInfo& info);
+        Node(const NodeInfo& info, int n);
         void modifyClock(int index, int value);
         int getId() const;
         int getPort() const;
@@ -26,4 +25,3 @@ class Node{
         const std::string& getHostName() const;
 };
 
-#endif

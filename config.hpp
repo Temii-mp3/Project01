@@ -1,5 +1,4 @@
-#ifndef NODEINFO_HPP
-#define NODEINFO_HPP
+#pragma once
 
 #include <vector>
 #include <string>
@@ -7,7 +6,7 @@
 
 class Config{
 
-    private:
+    private:    
          int NUM_NODES;
          int MIN_PER_ACTIVE;
          int MAX_PER_ACTIVE;
@@ -29,5 +28,3 @@ class Config{
 
 
 };
-
-#endif

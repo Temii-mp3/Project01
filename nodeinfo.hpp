@@ -1,6 +1,4 @@
-#ifndef NODEINFO_HPP
-#define NODEINFO_HPP
-
+#pragma once
 
 #include <string>
 #include <vector>
@@ -11,5 +9,3 @@ struct NodeInfo{
     int listenPort;
     std::vector<int> adjacentNeighbors;
 };
-
-#endif
